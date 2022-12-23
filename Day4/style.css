@@ -1,0 +1,68 @@
+/*selector {
+	property: value
+}*/
+*{
+	margin: 0;
+	padding: 0;	
+}
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,img,a,table,th,td{
+	margin: 0;
+	padding: 0
+}
+
+h1{
+	font-size: 42px;
+}
+
+
+p {
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#first-paragraph{
+	color: green;
+}
+
+#second-paragraph{
+	color: brown;
+}
+
+.my-own-class{
+	font-size: 20px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+h1{
+	background: #3498db;
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+.box1{
+	width: 200px;
+	height: 200px;
+	/*background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
+	text-align: center;
+	/*background-image: radial-gradient(red, yellow, green);*/
+	background: url('images/Christmas.png');
+	background-size: cover;
+	/*background-size: contain;*/
+	background-repeat: no-repeat;
+}
+ h5{
+ 	color: red;
+ }
+
+.box1 h5{
+	color: white;
+}
