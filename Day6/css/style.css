@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cirle-box{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: chartreuse;
+}
+
+.simple-box{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    border-top-left-radius: 100px;
+}
+
+.purple-box{
+    width: 400px;
+    height: 200px;
+    background: purple;
+    margin: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.white-box{
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.white-box img{
+    float: left;
+}
+
+.white-box h4{
+    color: purple;
+    font-size: 75px;
+}
+
+.padding-example{
+    border: 1px solid black;
+    padding: 20px;
+    padding: 30px 5px;
+    padding: 12px 91px 66px 80px;
+    padding-top: 27px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+
+
+
+.main-box{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+}
+
+.my-box{
+    width: 400px;
+    height: 200px;
+    background: white;
+}
